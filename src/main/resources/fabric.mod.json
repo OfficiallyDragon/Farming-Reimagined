@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "farmingreimagined",
+	"version": "${version}",
+	"name": "Farming Reimagined",
+	"description": "Farming, Reimagined to be better!",
+	"authors": [
+		"OfficiallyDragon"
+	],
+	"contact": {
+		"homepage": "https://github.com/OfficiallyDragon/Farming-Reimagined",
+		"sources": "https://github.com/OfficiallyDragon/Farming-Reimagined"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/farmingreimagined/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.officiallydragon.farmingreimagined.FarmingReimagined"
+		],
+		"fabric-datagen": [
+			"me.officiallydragon.farmingreimagined.FarmingReimaginedDataGenerator"
+		],
+        "client": [
+          "me.officiallydragon.farmingreimagined.FarmingReimaginedClient"
+        ]
+	},
+	"mixins": [
+		"farmingreimagined.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
