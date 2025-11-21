@@ -4,7 +4,7 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "farmingreimagined:block/support_stick",
-		"particle": "farmingreimagined:block/support_stick"
+		"particle": "minecraft:block/bamboo_planks"
 	},
 	"elements": [
 		{

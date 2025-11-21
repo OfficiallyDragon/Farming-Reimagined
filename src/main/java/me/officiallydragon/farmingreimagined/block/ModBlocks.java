@@ -18,14 +18,16 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create()
                     .strength(1.0F)
                     .requiresTool()
-                    .sounds(BlockSoundGroup.BAMBOO_WOOD))
+                    .sounds(BlockSoundGroup.BAMBOO_WOOD)
+                    .nonOpaque())
     );
 
     public static final Block GROW_DOME = registerBlock("grow_dome",
             new Block(AbstractBlock.Settings.create()
                     .strength(1.0F)
                     .requiresTool()
-                    .sounds(BlockSoundGroup.DECORATED_POT))
+                    .sounds(BlockSoundGroup.DECORATED_POT)
+                    .nonOpaque())
     );
 
     private static Block registerBlock(String name, Block block) {

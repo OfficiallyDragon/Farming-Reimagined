@@ -6,7 +6,7 @@
 		"0": "farmingreimagined:block/grow_dome_dirt",
 		"1": "farmingreimagined:block/grow_dome_cloche",
 		"2": "farmingreimagined:block/grow_dome_base",
-		"particle": "farmingreimagined:block/grow_dome_dirt"
+		"particle": "farmingreimagined:block/grow_dome_base"
 	},
 	"elements": [
 		{
