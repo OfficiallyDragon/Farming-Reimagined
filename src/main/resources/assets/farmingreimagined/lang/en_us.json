@@ -3,6 +3,9 @@
   "item.farmingreimagined.kiwi": "Kiwi",
 
   "block.farmingreimagined.support_stick": "Support Stick",
-  "block.farmingreimagined.grow_dome": "Grow Dome"
+  "block.farmingreimagined.grow_dome": "Grow Dome",
+
+  "itemgroup.farmingreimagined.Functional_blocks_group": "FR: Functional Blocks",
+  "itemgroup.farmingreimagined.fruit_group": "FR: Fruits"
 
 }

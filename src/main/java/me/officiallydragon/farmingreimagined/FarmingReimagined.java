@@ -1,6 +1,7 @@
 package me.officiallydragon.farmingreimagined;
 
 import me.officiallydragon.farmingreimagined.block.ModBlocks;
+import me.officiallydragon.farmingreimagined.item.ModItemGroups;
 import me.officiallydragon.farmingreimagined.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -15,6 +16,8 @@ public class FarmingReimagined implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+        ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
         ModBlocks.registerModBlocks();
 	}
