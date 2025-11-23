@@ -16,8 +16,7 @@ public class ModBlocks {
 
     public static final Block SUPPORT_STICK = registerBlock("support_stick",
             new Block(AbstractBlock.Settings.create()
-                    .strength(1.0F)
-                    .requiresTool()
+                    .strength(0.5F)
                     .sounds(BlockSoundGroup.BAMBOO_WOOD)
                     .nonOpaque())
     );

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "BDB",
+    "BBB"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:glass"
+    },
+    "B": {
+      "item": "minecraft:bricks"
+    },
+    "D": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "result": {
+    "id": "farmingreimagined:grow_dome",
+    "count": 1
+  },
+  "group": "misc"
+}

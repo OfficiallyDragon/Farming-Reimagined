@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "S#S",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bamboo"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "id": "farmingreimagined:support_stick",
+    "count": 1
+  },
+  "group": "misc"
+}
